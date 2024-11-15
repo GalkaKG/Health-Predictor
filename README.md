@@ -1,12 +1,5 @@
 # Health Predictor
 
-A machine learning model designed to predict health outcomes and diagnose potential diseases based on symptoms.
-
-You can download the dataset here: https://www.kaggle.com/datasets/uom190346a/disease-symptoms-and-patient-profile-dataset/data
-
-
-# Health Predictor
-
 ## Overview
 
 The **Health Predictor** is a machine learning-based model designed to assist in predicting health outcomes and diagnosing potential diseases based on a patient's symptoms and profile. This tool leverages data-driven insights to identify correlations between various health indicators such as age, gender, symptoms, and medical history, enabling users to make informed decisions about potential health issues.
@@ -47,3 +40,27 @@ You can install the required libraries using `pip`:
 
 ```bash
 pip install pandas scikit-learn numpy matplotlib
+```
+
+### Install Dependencies
+To install the necessary libraries, simply run:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all the dependencies required for the app to run, including Streamlit and scikit-learn.
+
+### Running the App Locally
+Once the dependencies are installed, you can run the app locally by executing the following command:
+
+```bash
+streamlit run main.py
+```
+
+This will start the Streamlit app, and you can view it in your browser.
+
+### Deployed App
+
+The application is also deployed and accessible online. You can try the model and make predictions directly by visiting the following link:
+[Access the Deployed App](http://your-deployed-app-link)
