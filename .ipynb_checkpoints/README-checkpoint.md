@@ -63,4 +63,4 @@ This will start the Streamlit app, and you can view it in your browser.
 ### Deployed App
 
 The application is also deployed and accessible online. You can try the model and make predictions directly by visiting the following link:
-[Access the Deployed App](http://your-deployed-app-link)
+[Access the Deployed App](https://health-predictor-3uopoqgwgsyjbmporfpjew.streamlit.app/)
