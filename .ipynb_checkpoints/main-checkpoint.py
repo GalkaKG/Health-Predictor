@@ -100,10 +100,10 @@ import pandas as pd
 import pickle
 
 # Load the trained models with the pipelines
-with open("outcome_model.pkl", "rb") as file:
+with open("models/outcome_model.pkl", "rb") as file:
     outcome_model = pickle.load(file)
 
-with open("disease_model.pkl", "rb") as file:
+with open("models/disease_model.pkl", "rb") as file:
     disease_model = pickle.load(file)
 
 # Title for the app
