@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 from PIL import Image
 
-# Load the trained models with the pipelines
+
 with open("models/outcome_model.pkl", "rb") as file:
     outcome_model = pickle.load(file)
 
@@ -21,8 +21,8 @@ if selected_page == "Home":
     Welcome to the **Disease Prediction App**!  
     This app uses Machine Learning to predict whether you might have a disease based on your symptoms and other health indicators.
     """)
-    # Add an image for visual enhancement
-    image = Image.open("assets/healthcare.png")  # Ensure this path is correct
+    
+    image = Image.open("assets/healthcare.png")  
     st.image(image, use_column_width=True)
     st.info("Navigate to the **Prediction** page using the sidebar to start.")
 
