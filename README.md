@@ -1,5 +1,10 @@
 # Health Predictor
 
+### Deployed App
+
+The application is also deployed and accessible online. You can try the model and make predictions directly by visiting the following link:
+[Access the Deployed App](https://health-predictor-3uopoqgwgsyjbmporfpjew.streamlit.app/)
+
 ## Overview
 
 The **Health Predictor** is a machine learning-based model designed to assist in predicting health outcomes and diagnosing potential diseases based on a patient's symptoms and profile. This tool leverages data-driven insights to identify correlations between various health indicators such as age, gender, symptoms, and medical history, enabling users to make informed decisions about potential health issues.
@@ -59,8 +64,3 @@ streamlit run main.py
 ```
 
 This will start the Streamlit app, and you can view it in your browser.
-
-### Deployed App
-
-The application is also deployed and accessible online. You can try the model and make predictions directly by visiting the following link:
-[Access the Deployed App](https://health-predictor-3uopoqgwgsyjbmporfpjew.streamlit.app/)
